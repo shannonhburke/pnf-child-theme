@@ -1,0 +1,46 @@
+/*
+ Theme Name:   Storefront Child for PNF
+ Description:  Storefront Child Theme for PNF
+ Author:       Shannon B
+ Template:     storefront
+ Version:      1.0.0
+*/
+
+.site-header{
+  background-image: url("/wp-content/themes/storefrontchild/headerdotgrid30grey.png");
+  background-size: cover;
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-style: none;
+  margin: 0px !important;
+}
+
+@media screen and (min-width: 768px) {
+	.site-branding{
+		text-align: center;
+		margin: 0 auto !important;
+		float: none !important;
+		width: auto !important;
+	}
+}
+
+.site-branding .site-title{
+  font-family: 'Amatic SC', cursive;
+  font-size: 4.5em;
+}
+
+.site-branding .site-description{
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  visibility: hidden;
+}
+
+.entry-header h1{
+  font-family: 'Amatic SC', cursive;
+  color: #ad61ce;
+}
+
+.entry-content{
+ font-family: Helvetica;
+}
